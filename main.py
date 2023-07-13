@@ -73,3 +73,7 @@ def set_range(el, val):
     ac.click()
     ac.perform()
 set_range(selected_html_element_form_range,value)
+
+#Submit button
+selected_html_element_btn = select_item(item.submit_btn[0],item.submit_btn[1])
+selected_html_element_btn.click()
